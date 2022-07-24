@@ -2,6 +2,8 @@ if game.PlaceId == 5149673492 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nekoxhubreal/Varomin-Hub/main/Build%20to%20survive%20the%20Bombs.txt",true))();
 elseif game.PlaceId ==  9170761016 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nekoxhubreal/Varomin-Hub/main/Magic%20clicker.lua",true))();
+elseif game.PlaceId == 3652625463 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nekoxhubreal/Varomin-Hub/main/Lifting.lua",true))();
 else
     game.Players.LocalPlayer:Kick"Map Not Found!"
 end
