@@ -4,6 +4,8 @@ elseif game.PlaceId ==  9170761016 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nekoxhubreal/Varomin-Hub/main/Magic%20clicker.lua",true))();
 elseif game.PlaceId == 3652625463 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nekoxhubreal/Varomin-Hub/main/Lifting.lua",true))();
+elseif game.PlaceId == 7952502098 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nekoxhubreal/Varomin-Hub/main/Impossible%20Glass%20Bridge.lua",true))();
 else
     game.Players.LocalPlayer:Kick"Map Not Found!"
 end
